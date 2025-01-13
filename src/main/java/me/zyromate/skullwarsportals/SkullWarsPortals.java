@@ -198,7 +198,7 @@ public class SkullWarsPortals extends JavaPlugin implements Listener {
      * Algorithm to check for portals inside of a radius
      *
      * @param interactedLocation Location the player interacted with
-     * @param radius             Radius to check in
+     * @param radius             Radius to check in.
      * @return Whether or not a portal is inside of the radius from the interacted Loc
      */
     private boolean isPortalWithinRadius(Location interactedLocation, int radius) {
