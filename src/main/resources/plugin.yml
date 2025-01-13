@@ -1,0 +1,29 @@
+name: ${project.name}
+main: ${project.groupId}.${project.artifactId}
+version: ${project.version}
+authors: [Zyromate and Xanthard]
+depend: [DecentHolograms]
+
+commands:
+  skullwarsportals:
+    description: Main command for SkullWarsPortals plugin.
+    usage: /<command> <subcommand>
+    aliases: [portal, skportals]
+    permission: skullwarsportals.use
+
+permissions:
+  skullwarsportals.use:
+    description: Allows use of the main SkullWarsPortals command.
+    default: true
+
+  skullwarsportals.reload:
+    description: Allows reloading the plugin configuration.
+    default: op
+
+  skullwarsportals.giveremover:
+    description: Allows giving the portal remover tool.
+    default: op
+
+  skullwarsportals.deleteallportals:
+    description: Allows deleting all portals.
+    default: op
