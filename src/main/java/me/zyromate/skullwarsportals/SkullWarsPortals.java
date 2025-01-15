@@ -200,7 +200,7 @@ public class SkullWarsPortals extends JavaPlugin implements Listener {
      * @param interactedLocation Location the player interacted with
      * @param radius             Radius to check in.
      * @return Whether or not a portal is inside of the radius from the interacted Loc
-     */
+     **/
     private boolean isPortalWithinRadius(Location interactedLocation, int radius) {
         for (Map.Entry<String, Set<Location>> entry : portalLocations.entrySet()) {
             if (entry.getValue().contains(interactedLocation)) return true;
@@ -227,7 +227,7 @@ public class SkullWarsPortals extends JavaPlugin implements Listener {
      *
      * @param placedBlock Block placed by player
      * @param fac         Faction at that location
-     */
+     **/
     private void checkForEndPortal(Block placedBlock, Faction fac) {
         Set<Location> portalBlocks = new HashSet<>();
         World world = placedBlock.getWorld();

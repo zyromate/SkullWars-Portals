@@ -3,6 +3,7 @@ main: ${project.groupId}.${project.artifactId}
 version: ${project.version}
 authors: [Zyromate and Xanthard]
 depend: [DecentHolograms]
+softdepend: [FactionsUUID, MassiveCore]
 
 commands:
   skullwarsportals:
